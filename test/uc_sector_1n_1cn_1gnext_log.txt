@@ -1,0 +1,15 @@
+Using a default Block configuration
+Solver: GRBMILPSolver
+Elapsed time: 1.25210000e-03 s
+Status = 10 (Success)
+Upper bound = 2.58459004e+05
+Lower bound = 0.00000000e+00
+
+----- IntermittentUnitBlock 0 -----
+Function value = 2.58459004e+05
+Capacity       = 6.51236456e+10
+Active power   = [     -1.84464189e+03     -2.10908239e+03     -1.44111842e+03     -1.61935966e+03     -1.47042227e+03     -1.38492266e+03     -1.18381168e+03     -2.56313210e+03     -2.62317553e+03     -3.25109939e+03     -2.97187910e+03     -2.79583204e+03     -2.11073419e+03     -1.47629326e+03     -1.43721684e+03     -2.62893699e+03     -4.10783501e+03     -6.51236456e+03     -5.34379808e+03     -5.72906696e+03     -3.51684689e+03     -2.90609955e+03     -3.42183500e+03     -2.70971999e+03 ]
+
+Peak CPU Usage: 0.00 %
+Peak Memory Usage: 2.14 MB
+Total Time: 0.32 seconds

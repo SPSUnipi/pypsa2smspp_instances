@@ -1,0 +1,148 @@
+Using a default Block configuration
+Solver: GRBMILPSolver
+Elapsed time: 1.13509000e-02 s
+Status = 10 (Success)
+Upper bound = 3.82500190e+08
+Lower bound = 0.00000000e+00
+
+----- IntermittentUnitBlock 0 -----
+Function value = 3.94651284e+06
+Capacity       = 5.20578634e+10
+Active power   = [      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      1.41190408e+03      1.50345913e+03      1.26709221e+03      2.56422723e+03      3.12611622e+03      3.00165083e+03      3.01965274e+03      2.60423186e+03      2.56505896e+03      1.51176526e+03      1.28249402e+03      2.65474847e+03      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00 ]
+
+----- SlackUnitBlock 1 -----
+Function value = 3.78398825e+08
+Active power   = [      1.64534615e+03      1.83480845e+03      1.57897027e+03      1.47294054e+03      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      0.00000000e+00      1.55923746e-18      4.18964913e+03      4.91786222e+03      5.81761278e+03      4.77803099e+03      3.41870490e+03      3.45910310e+03      2.69793763e+03      2.02891629e+03 ]
+
+----- BatteryUnitBlock 2 -----
+Function value = 1.54853040e+05
+Batt Capacity  = 6.96000000e+09
+Conv Capacity  = 1.00000000e+16
+Active power   = [     -6.12158292e-18     -9.37861932e-19      4.32545081e-19      2.64492050e-18     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01     -5.80000000e+01      7.11016960e+01      7.71575162e+01      9.21864206e+01      9.01120738e+01      9.14441635e+01      9.23263426e+01      9.25818463e+01      8.90899411e+01 ]
+Intake level   = [      6.12158292e-18      3.48000000e+02      3.53505693e+02      3.56899785e+02      3.81925001e+02      3.80418680e+02      3.80635112e+02      3.80875822e+02      3.81089860e+02      3.81248605e+02      3.81402734e+02      3.81623330e+02      3.81962843e+02      3.82562828e+02      3.83382711e+02      3.79620630e+02      3.20537358e+02      3.15187516e+02      3.05816728e+02      3.06522887e+02      3.05350053e+02      3.04782583e+02      3.05014377e+02      3.10146356e+02 ]
+Outtake level  = [      0.00000000e+00      3.48000000e+02      3.53505693e+02      3.56899785e+02      3.23925001e+02      3.22418680e+02      3.22635112e+02      3.22875822e+02      3.23089860e+02      3.23248605e+02      3.23402734e+02      3.23623330e+02      3.23962843e+02      3.24562828e+02      3.25382711e+02      3.21620630e+02      3.91639054e+02      3.92345032e+02      3.98003149e+02      3.96634961e+02      3.96794217e+02      3.97108926e+02      3.97596224e+02      3.99236297e+02 ]
+Storage level  = [      6.12158292e-18      7.08081535e-18      6.63315410e-18      3.98902144e-18      5.80000000e+01      1.16000000e+02      1.74000000e+02      2.32000000e+02      2.90000000e+02      3.48000000e+02      4.06000000e+02      4.64000000e+02      5.22000000e+02      5.80000000e+02      6.38000000e+02      6.96000000e+02      6.24898304e+02      5.47740788e+02      4.55554367e+02      3.65442293e+02      2.73998130e+02      1.81671787e+02      8.90899411e+01      1.55849804e-18 ]
+
+----- DCNetworkBlock 0 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.30589496e-17      1.45260783e-18 ]
+Auxiliary variable     = [      1.30589496e-17      1.45260783e-18 ]
+
+----- DCNetworkBlock 1 -----
+Function value   = 0.00000000e+00
+Power flow       = [      4.85483689e-18      1.87794347e-18 ]
+Auxiliary variable     = [      4.85483689e-18      1.87794347e-18 ]
+
+----- DCNetworkBlock 2 -----
+Function value   = 0.00000000e+00
+Power flow       = [      3.85970238e-18      2.67117246e-18 ]
+Auxiliary variable     = [      3.85970238e-18      2.67117246e-18 ]
+
+----- DCNetworkBlock 3 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.83768052e-18      4.29077520e-18 ]
+Auxiliary variable     = [      2.83768052e-18      4.29077520e-18 ]
+
+----- DCNetworkBlock 4 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.77036540e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.77036540e-18 ]
+
+----- DCNetworkBlock 5 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.73443897e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.73443897e-18 ]
+
+----- DCNetworkBlock 6 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.71263814e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.71263814e-18 ]
+
+----- DCNetworkBlock 7 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.68675197e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.68675197e-18 ]
+
+----- DCNetworkBlock 8 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.66317961e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.66317961e-18 ]
+
+----- DCNetworkBlock 9 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.64381658e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.64381658e-18 ]
+
+----- DCNetworkBlock 10 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.63846782e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.63846782e-18 ]
+
+----- DCNetworkBlock 11 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.66018087e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.66018087e-18 ]
+
+----- DCNetworkBlock 12 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.73347832e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.73347832e-18 ]
+
+----- DCNetworkBlock 13 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      2.89542935e-18 ]
+Auxiliary variable     = [      1.00000000e+02      2.89542935e-18 ]
+
+----- DCNetworkBlock 14 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      3.20248375e-18 ]
+Auxiliary variable     = [      1.00000000e+02      3.20248375e-18 ]
+
+----- DCNetworkBlock 15 -----
+Function value   = 0.00000000e+00
+Power flow       = [      1.00000000e+02      4.90906864e-18 ]
+Auxiliary variable     = [      1.00000000e+02      4.90906864e-18 ]
+
+----- DCNetworkBlock 16 -----
+Function value   = 0.00000000e+00
+Power flow       = [      3.02673710e-18      7.11016960e+01 ]
+Auxiliary variable     = [      3.02673710e-18      7.11016960e+01 ]
+
+----- DCNetworkBlock 17 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.79017033e-18      7.71575162e+01 ]
+Auxiliary variable     = [      2.79017033e-18      7.71575162e+01 ]
+
+----- DCNetworkBlock 18 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.15123894e-18      9.21864206e+01 ]
+Auxiliary variable     = [      2.15123894e-18      9.21864206e+01 ]
+
+----- DCNetworkBlock 19 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.54239220e-18      9.01120738e+01 ]
+Auxiliary variable     = [      2.54239220e-18      9.01120738e+01 ]
+
+----- DCNetworkBlock 20 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.50917197e-18      9.14441635e+01 ]
+Auxiliary variable     = [      2.50917197e-18      9.14441635e+01 ]
+
+----- DCNetworkBlock 21 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.49594843e-18      9.23263426e+01 ]
+Auxiliary variable     = [      2.49594843e-18      9.23263426e+01 ]
+
+----- DCNetworkBlock 22 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.50328926e-18      9.25818463e+01 ]
+Auxiliary variable     = [      2.50328926e-18      9.25818463e+01 ]
+
+----- DCNetworkBlock 23 -----
+Function value   = 0.00000000e+00
+Power flow       = [      2.53507132e-18      8.90899411e+01 ]
+Auxiliary variable     = [      2.53507132e-18      8.90899411e+01 ]
+
+Peak CPU Usage: 0.00 %
+Peak Memory Usage: 2.13 MB
+Total Time: 0.36 seconds
