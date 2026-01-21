@@ -1,0 +1,8 @@
+commit 268ea862f1940cb01b99cc950007ef7eecbb0baf (HEAD -> main, origin/main, origin/HEAD)
+Merge: 48ea31a bda67a1
+Author: Alessandro Pampado <alessandro.pampado@ing.unipi.it>
+Date:   Mon Jan 19 17:41:10 2026 +0100
+
+    Merge pull request #11 from SPSUnipi/pipeline_pypsa2smspp
+
+    Pipeline for pypsa2smspp
