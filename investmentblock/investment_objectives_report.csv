@@ -1,0 +1,8 @@
+case_name,xlsx_path,solver_name,objective_pypsa,objective_smspp,absolute_difference,relative_difference
+1n_1c_1gext,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\1n_1c_1gext.xlsx,highs,396936540.7692562,396977797.5,41256.730743825436,0.00010393785027669813
+2n_1c_1gext_1bext_2l,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\2n_1c_1gext_1bext_2l.xlsx,highs,411625293.0537321,411625293.05,0.0037320852279663086,9.066705304426313e-12
+2n_1c_1gext_1bext_2lext,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\2n_1c_1gext_1bext_2lext.xlsx,highs,90197911.21268679,90197911.213,0.0003132075071334839,3.4724474538544488e-12
+2n_2c_1g_1lext,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\2n_2c_1g_1lext.xlsx,highs,662644434.166307,662644434.17,0.0036929845809936523,5.5731013354694636e-12
+3n_3c_1gext_1h_1bext_2l,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\3n_3c_1gext_1h_1bext_2l.xlsx,highs,598345633.7161014,603238933.23,4893299.513898611,0.008178048335555077
+inv_1n_1c_1g_ext,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\inv_1n_1c_1g_ext.xlsx,highs,410934463.9488351,410934463.95,0.0011649131774902344,2.834790653225124e-12
+inv_2n_1c_1g_1b_ext,C:\Users\aless\sms\transformation_pypsa_smspp\test\configs\data\test\inv_2n_1c_1g_1b_ext.xlsx,highs,416898502.63698983,416898502.64,0.0030101537704467773,7.220351599746182e-12
